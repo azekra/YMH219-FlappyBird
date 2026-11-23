@@ -28,10 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            SuspendLayout();
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Text = "Form1";
+            BackColor = Color.LightSkyBlue;
+            ClientSize = new Size(784, 561);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            KeyPreview = true;
+            MaximizeBox = false;
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Flappy Bird";
+            Load += YMH219_FlappyBird_Load;
+            ResumeLayout(false);
+        }
+
+        private void YMH219_FlappyBird_Load(object sender, EventArgs e)
+        {
         }
 
         #endregion
