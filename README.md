@@ -79,12 +79,9 @@ Proje kapsamında nesne tabanlı programlama, klavye olayları, zamanlayıcı (T
 - Oyun şu anda tek oyunculu olarak çalışmaktadır.
 - En yüksek skor kalıcı olarak kaydedilmemektedir.
 
-## 👨‍🎓 Öğrenci Bilgileri
-
 - **Ders:** Nesne Tabanlı Programlama (YMH 219)
 - **Proje:** Flappy Bird
-- **Ad Soyad:** [Adınızı ve Soyadınızı Yazınız]
-- **Öğrenci Numarası:** [Öğrenci Numaranızı Yazınız]
+
 
 ## 📚 Projenin Eğitimsel Amacı
 
