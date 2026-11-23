@@ -56,21 +56,6 @@ Proje kapsamında nesne tabanlı programlama, klavye olayları, zamanlayıcı (T
 
 ![Game Over Screenshot](screenshots/game-over.png)
 
-## 🚀 Kurulum ve Çalıştırma
-
-1. GitHub deposunu bilgisayarınıza klonlayın:
-
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/YMH219-FlappyBird.git
-   ```
-
-2. Projeyi Visual Studio Community 2026 ile açın.
-
-3. Bilgisayarınızda .NET 10 SDK ve .NET Desktop Development bileşeninin yüklü olduğundan emin olun.
-
-4. Visual Studio üzerinden `Build → Build Solution` seçeneğini kullanarak projeyi derleyin.
-
-5. Uygulamayı çalıştırmak için `F5` tuşuna basın.
 
 ## ⚠️ Bilinen Sınırlamalar
 
