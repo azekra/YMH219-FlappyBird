@@ -2,6 +2,18 @@
 
 **Nesne Tabanlı Programlama (YMH 219)** dersi kapsamında C# ve Windows Forms kullanılarak geliştirilen Flappy Bird benzeri masaüstü oyunudur.
 
+
+## 📸 Ekran Görüntüleri
+
+### Oyun Ekranı (Gameplay)
+
+![Gameplay Screenshot](screenshots/gameplay.png)
+
+### Oyun Sonu Ekranı (Game Over)
+
+![Game Over Screenshot](screenshots/game-over.png)
+
+
 ## 📌 Proje Hakkında
 
 Bu projede, klasik Flappy Bird oyunundan ilham alınarak basit bir masaüstü oyunu geliştirilmiştir.
@@ -45,16 +57,6 @@ Proje kapsamında nesne tabanlı programlama, klavye olayları, zamanlayıcı (T
 | `SPACE` | Oyunu başlatır. |
 | `SPACE` | Kuşun yukarı zıplamasını sağlar. |
 | `SPACE` | Game Over ekranından sonra oyunu yeniden başlatır. |
-
-## 📸 Ekran Görüntüleri
-
-### Oyun Ekranı (Gameplay)
-
-![Gameplay Screenshot](screenshots/gameplay.png)
-
-### Oyun Sonu Ekranı (Game Over)
-
-![Game Over Screenshot](screenshots/game-over.png)
 
 
 ## ⚠️ Bilinen Sınırlamalar
