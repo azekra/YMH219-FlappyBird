@@ -59,16 +59,18 @@ Proje kapsamında nesne tabanlı programlama, klavye olayları, zamanlayıcı (T
 | `SPACE` | Game Over ekranından sonra oyunu yeniden başlatır. |
 
 
-## ⚠️ Bilinen Sınırlamalar
+## 🛠️ Kullanılan Teknolojiler
 
-- Uygulama Windows masaüstü ortamı için geliştirilmiştir.
-- Grafikler Windows Forms ve System.Drawing kullanılarak programatik olarak oluşturulmuştur.
-- Oyun şu anda tek oyunculu olarak çalışmaktadır.
-- En yüksek skor kalıcı olarak kaydedilmemektedir.
-
-- **Ders:** Nesne Tabanlı Programlama (YMH 219)
-- **Proje:** Flappy Bird
-
+- **C#:** Oyunun temel programlama dili.
+- **.NET 10:** Uygulamanın geliştirilmesi ve çalıştırılması için kullanılan platform.
+- **Windows Forms:** Masaüstü kullanıcı arayüzünün oluşturulması için kullanılmıştır.
+- **System.Drawing:** Kuş, borular, bulutlar ve oyun ortamının çizilmesi için kullanılmıştır.
+- **Windows Forms Timer:** Oyun döngüsünü ve nesnelerin hareketini yönetmek için kullanılmıştır.
+- **Object-Oriented Programming (OOP):** Sınıf ve nesne yapıları kullanılarak kodun düzenlenmesi.
+- **Event Handling:** Klavye girişlerini algılamak ve oyun kontrollerini gerçekleştirmek için kullanılmıştır.
+- **Collision Detection:** Kuş ile engeller arasındaki çarpışmaları kontrol etmek için kullanılmıştır.
+- **Git & GitHub:** Kaynak kodların sürüm kontrolü ve proje yönetimi için kullanılmıştır.
+- **Visual Studio Community 2026:** Projenin geliştirilmesi ve hata ayıklama işlemleri için kullanılmıştır.
 
 ## 📚 Projenin Eğitimsel Amacı
 
