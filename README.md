@@ -36,7 +36,7 @@ Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları i
 1. **Gereksinimler:** Bilgisayarınızda **.NET 10 SDK** ve **Visual Studio 2026** (veya uyumlu bir sürüm) yüklü olmalıdır.
 2. **Depoyu Klonlayın:**
    ```bash
-   git clone [https://github.com/kullanici-adiniz/depo-adiniz.git](https://github.com/kullanici-adiniz/depo-adiniz.git)
+   git clone [https://github.com/azekra/YMH219-FlappyBird.git](https://github.com/azekra/YMH219-FlappyBird.git)
    ```
 3. **Projeyi Açın:**
    İndirdiğiniz klasör içerisindeki `.sln` (Solution) dosyasını **Visual Studio** ile açın.
