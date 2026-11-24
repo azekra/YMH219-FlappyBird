@@ -32,15 +32,6 @@ Proje kapsamında nesne tabanlı programlama, klavye olayları, zamanlayıcı (T
 - **Game Over Ekranı:** Çarpışma gerçekleştiğinde oyun sonu ekranı gösterilir.
 - **Yeniden Başlatma:** Oyun bittikten sonra Space tuşu ile yeni oyun başlatılabilir.
 
-## 🛠️ Kullanılan Teknolojiler
-
-- C#
-- .NET 10
-- Windows Forms
-- Visual Studio Community 2026
-- System.Drawing
-- Windows Forms Timer
-
 ## 🧱 Proje Yapısı
 
 | Dosya | Açıklama |
