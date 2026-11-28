@@ -14,6 +14,10 @@ public class Bird
 
     private const float Gravity = 1450f;
     private const float JumpStrength = -500f;
+    private const float MaxFallSpeed = 700f;
+    private const float RotationFactor = 0.075f;
+
+    private float Rotation => Math.Clamp(velocityY * RotationFactor, -25f, 65f);
 
     public RectangleF Bounds => new(X, Y, Width, Height);
 
@@ -30,7 +34,7 @@ public class Bird
 
     public void Update(float deltaTime)
     {
-        velocityY += Gravity * deltaTime;
+        velocityY = Math.Min(velocityY + Gravity * deltaTime, MaxFallSpeed);
         Y += velocityY * deltaTime;
     }
 
@@ -43,6 +47,11 @@ public class Bird
 
     public void Draw(Graphics g)
     {
+        var graphicsState = g.Save();
+        g.TranslateTransform(X + Width / 2, Y + Height / 2);
+        g.RotateTransform(Rotation);
+        g.TranslateTransform(-(X + Width / 2), -(Y + Height / 2));
+
         g.FillEllipse(Brushes.Gold, Bounds);
 
         g.FillEllipse(Brushes.White, X + 25, Y + 6, 8, 8);
@@ -56,5 +65,7 @@ public class Bird
         };
 
         g.FillPolygon(Brushes.OrangeRed, beak);
+
+        g.Restore(graphicsState);
     }
 }
