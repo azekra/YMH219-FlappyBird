@@ -11,13 +11,15 @@ public class Bird
     public float Height => 30;
 
     private float velocityY;
+    private float rotation;
 
     private const float Gravity = 1450f;
     private const float JumpStrength = -500f;
     private const float MaxFallSpeed = 700f;
     private const float RotationFactor = 0.075f;
+    private const float RotationSmoothing = 9f;
 
-    private float Rotation => Math.Clamp(velocityY * RotationFactor, -25f, 65f);
+    private float Rotation => rotation;
 
     public RectangleF Bounds => new(X, Y, Width, Height);
 
@@ -34,8 +36,13 @@ public class Bird
 
     public void Update(float deltaTime)
     {
+        float previousVelocity = velocityY;
         velocityY = Math.Min(velocityY + Gravity * deltaTime, MaxFallSpeed);
-        Y += velocityY * deltaTime;
+        Y += (previousVelocity + velocityY) * 0.5f * deltaTime;
+
+        float targetRotation = Math.Clamp(velocityY * RotationFactor, -25f, 65f);
+        float rotationBlend = Math.Min(RotationSmoothing * deltaTime, 1f);
+        rotation += (targetRotation - rotation) * rotationBlend;
     }
 
     public void Reset(float x, float y)
@@ -43,6 +50,7 @@ public class Bird
         X = x;
         Y = y;
         velocityY = 0;
+        rotation = 0;
     }
 
     public void Draw(Graphics g)
